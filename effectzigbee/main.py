@@ -13,5 +13,5 @@ def init():
 
 def ledColor(r, g, b):
     ser = init()
-    ser.write(str.encode("led=" + r + "," + g + "," + b + "\n"))
+    ser.write(str.encode("led=" + str(r) + "," + str(g) + "," + str(b) + "\n"))
     ser.close()
