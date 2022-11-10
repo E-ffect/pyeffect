@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="effect-zigbee",
+    name="effectzigbee",
     version="0.0.1",
     author="Antonin Alves",
     author_email="antonin@alors-la.fr",
@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/antonin-alves/effect-zigbee/issues"
     },
     license="",
-    packages=["effect-zigbee"],
+    packages=["effectzigbee"],
     install_requires=["pyserial"],
 )
