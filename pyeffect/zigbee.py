@@ -11,7 +11,7 @@ def init():
     )
 
 
-def ledColor(r, g, b):
+def changePedalLedColor(r, g, b):
     ser = init()
     ser.write(str.encode("led=" + str(r) + "," + str(g) + "," + str(b) + "\n"))
     ser.close()

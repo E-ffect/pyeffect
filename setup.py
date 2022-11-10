@@ -4,18 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="effectzigbee",
-    version="0.0.2",
+    name="pyeffect",
+    version="0.0.3",
     author="Antonin Alves",
     author_email="antonin@alors-la.fr",
-    description="E-ffect Zigbee",
+    description="E-ffect Package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/antonin-alves/effect-zigbee",
-    project_urls={
-        "Bug Tracker": "https://github.com/antonin-alves/effect-zigbee/issues"
-    },
+    url="https://github.com/antonin-alves/pyeffect",
+    project_urls={"Bug Tracker": "https://github.com/antonin-alves/pyeffect/issues"},
     license="",
-    packages=["effectzigbee"],
+    packages=["pyeffect"],
     install_requires=["pyserial"],
 )
