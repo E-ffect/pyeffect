@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="effectzigbee",
-    version="0.0.1",
+    version="0.0.2",
     author="Antonin Alves",
     author_email="antonin@alors-la.fr",
     description="E-ffect Zigbee",
