@@ -19,3 +19,25 @@
 <img src="https://img.shields.io/badge/version-0.0.4-green" /> 
 </div>
 
+## How to install
+
+```sh
+
+pip install git+https://github.com/antonin-alves/pyeffect
+
+```
+
+## How to use 
+
+```python
+
+from pyeffect import zigbee
+
+# Change Pedal color
+zigbee.changePedalLedColor("EF-EC-01-23-45", 255, 255, 255)
+
+# Ping a Pedal
+zigbee.pingPedal("EF-EC-01-23-45")
+
+
+```
