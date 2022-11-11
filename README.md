@@ -16,6 +16,6 @@
 </div>
 
 <div align="center">
-<img src="https://img.shields.io/badge/version-0.0.3-green" /> 
+<img src="https://img.shields.io/badge/version-0.0.4-green" /> 
 </div>
 

@@ -11,7 +11,27 @@ def init():
     )
 
 
-def changePedalLedColor(r, g, b):
+def changePedalLedColor(target, r, g, b):
+    request = (
+        "["
+        + str(target)
+        + "]_[BRIDGE]_LIGHTCHANGE_{"
+        + str(r)
+        + ","
+        + str(g)
+        + ","
+        + str(b)
+        + "}"
+    )
+
     ser = init()
-    ser.write(str.encode("led=" + str(r) + "," + str(g) + "," + str(b) + "\n"))
+    ser.write(str.encode(request + "\n"))
+    ser.close()
+
+
+def pingPedal(target):
+    request = "[" + str(target) + "]_[BRIDGE]_PING_{}"
+
+    ser = init()
+    ser.write(str.encode(request + "\n"))
     ser.close()
