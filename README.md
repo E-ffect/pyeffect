@@ -12,7 +12,7 @@
 
 <div align="center">
 <img src="https://img.shields.io/badge/Language-Python-blueviolet" />
-<img src="https://img.shields.io/badge/Network-Zigbee-blue" />
+<img src="https://img.shields.io/badge/Interface-Zigbee-blue" />
 </div>
 
 <div align="center">
